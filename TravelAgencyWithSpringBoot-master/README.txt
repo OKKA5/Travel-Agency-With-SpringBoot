@@ -1,9 +1,7 @@
 # 🛠️ Project Setup Guide  
+
 ## 📌 Project Overview  
 This project is a backend system designed to manage hotel and event reservations efficiently. It provides a structured API for handling CRUD (Create, Read, Update, Delete) operations, ensuring smooth booking management and data integrity. Built for scalability and performance, this system serves as the core for applications requiring a robust reservation solution.
-
-## 📌Guide Overview  
-This guide provides step-by-step instructions to set up the database, verify connections, and test API endpoints for this project.  
 
 ## 📂 Database Setup  
 1. Locate the provided MySQL file (`database.sql`).  
