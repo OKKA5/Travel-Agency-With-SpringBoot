@@ -1,15 +1,39 @@
-### ✅ Setting Up the Database and API  
+# 🛠️ Project Setup Guide  
+## 📌 Project Overview  
+This project is a backend system designed to manage hotel and event reservations efficiently. It provides a structured API for handling CRUD (Create, Read, Update, Delete) operations, ensuring smooth booking management and data integrity. Built for scalability and performance, this system serves as the core for applications requiring a robust reservation solution.
 
-1️⃣ **Create the Database**  
-- Locate the provided MySQL file, which contains initial data.  
-- Use it to create your database in MySQL.  
+## 📌Guide Overview  
+This guide provides step-by-step instructions to set up the database, verify connections, and test API endpoints for this project.  
 
-2️⃣ **Verify Database Connection**  
-- Ensure that the database is properly connected through the `properties` file.  
+## 📂 Database Setup  
+1. Locate the provided MySQL file (`database.sql`).  
+2. Import it into **MySQL** to create the database with initial data.  
 
-3️⃣ **Check Dependencies**  
-- Review all required dependencies to confirm that everything is correctly installed and configured.  
+## 🔗 Database Connection  
+- Ensure the database is correctly connected by configuring the `application.properties` file.  
+- Verify that the database URL, username, and password are correctly set.  
 
-4️⃣ **Test API Endpoints**  
-- Once the setup is complete, test the **GET, POST, PUT, and DELETE** requests using **Postman**.  
-- Make sure you're using the correct API paths.  
+## 📦 Dependency Check  
+- Review and confirm that all required dependencies are installed.  
+- If necessary, run:  
+  ```bash
+  mvn clean install  # For Maven projects  
+  npm install        # For Node.js projects  
+  ```  
+
+## 🚀 API Testing  
+- Use **Postman** to test the following HTTP methods:  
+  - `GET` - Retrieve data  
+  - `POST` - Add new entries  
+  - `PUT` - Update existing records  
+  - `DELETE` - Remove records  
+- Ensure you're using the correct API paths.  
+
+## 🛠️ Troubleshooting  
+- If you encounter connection issues, check:  
+  - Database credentials in `properties` file  
+  - Running MySQL service  
+  - Installed dependencies  
+
+## 🤝 Contributing  
+Feel free to fork this repository, create a new branch, and submit a pull request with improvements.  
